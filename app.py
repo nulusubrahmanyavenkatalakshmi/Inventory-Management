@@ -2,7 +2,9 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from database import connect_db, setup_database
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'  # for flash messages
+app.secret_key = 'supersecretkey'  # Used for flashing messages
+
+# Set up database when app starts
 setup_database()
 
 @app.route('/')
@@ -88,18 +90,14 @@ def low_stock():
 def delete_product(product_id):
     conn = connect_db()
     cursor = conn.cursor()
-
-    # Delete all transactions for that product (optional)
-    cursor.execute("DELETE FROM Transactions WHERE product_id = ?", (product_id,))
     
-    # Delete the product from Products table
+    cursor.execute("DELETE FROM Transactions WHERE product_id = ?", (product_id,))
     cursor.execute("DELETE FROM Products WHERE product_id = ?", (product_id,))
 
     conn.commit()
     conn.close()
     flash("Product deleted successfully.")
     return redirect(url_for('index'))
-
 
 if __name__ == '__main__':
     app.run(debug=True)
