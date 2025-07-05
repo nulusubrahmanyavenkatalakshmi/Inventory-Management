@@ -1,47 +1,50 @@
+📦 Inventory Management System
+A web-based Inventory Management System developed using Flask and SQLite. This application helps manage stock levels, view transactions, and track low inventory items in a simple and intuitive interface.
 
-💼 Inventory Management System
-This is a web-based Inventory Management System developed using Flask (Python) and SQLite as a mini project to demonstrate CRUD operations, stock tracking, and transaction logging. It provides an easy-to-use interface for managing product inventory with the ability to add, update, delete products and monitor low stock alerts.
+<br>
+[🚀 Open Live Demo](https://inventory-management-rnuf.onrender.com)
 
-🔗 Live Deployment:  
-👉 [Inventory Management System](https://inventory-management-rnuf.onrender.com)
+✨ Features
+*🧾 Add new products with quantity and price
+
+*📋 View all products in inventory
+
+*🔁 Update stock quantities (add/remove)
+
+*📉 Get low stock alerts (quantity ≤ 5)
+
+*🗑️ Delete products from the inventory
+
+*📜 View complete transaction history
+
+Technologies Used:
+
+*Python (Flask Framework)
+
+*SQLite (Relational Database)
+
+*HTML5, CSS3, Bootstrap (Frontend UI)
+
+*Gunicorn (WSGI Server for Deployment)
+
+*Render (for live deployment)
 
 
-✨ About the Project
+▶️ Usage
+  *Navigate to the homepage to see the inventory.
+  
+  *Use the Add Product button to add a new item.
+  
+  *Click Update Stock to modify quantity.
+  
+  *Use Low Stock to see alerts.
+  
+  *Delete unwanted items directly from the dashboard.
+  
+  *View Transactions to see stock changes.
 
-This project helps small businesses or store owners keep track of their products. It provides a dashboard where:
 
-Products can be added with name, description, quantity, and price.
 
-Stocks can be updated whenever products are added or sold.
 
-A complete transaction history is maintained.
 
-Low stock alerts help avoid product shortages.
 
-Products can be deleted when no longer in use.
-
-The UI is simple and responsive, built using Bootstrap.
-
-🧠 Key Features
-✅ Add New Products
-
-📋 View Product List
-
-🔁 Update Stock Quantities
-
-📉 Get Low Stock Alerts (for quantity ≤ 5)
-
-🗑️ Delete Products from Inventory
-
-🧾 Track Stock Transactions (add/remove)
-
-🧰 Technologies Used
-Python (Flask Framework)
-
-SQLite (Relational Database)
-
-HTML5,  Bootstrap (Frontend UI)
-
-Gunicorn (WSGI Server for Deployment)
-
-Render (for live deployment)
