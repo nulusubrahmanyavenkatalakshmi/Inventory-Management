@@ -4,7 +4,8 @@ A web-based Inventory Management System developed using Flask and SQLite. This a
 <br>
 [🚀 Open Live Demo](https://inventory-management-rnuf.onrender.com)
 
-✨ Features
+✨ Features:
+
 *🧾 Add new products with quantity and price
 
 *📋 View all products in inventory
@@ -16,6 +17,8 @@ A web-based Inventory Management System developed using Flask and SQLite. This a
 *🗑️ Delete products from the inventory
 
 *📜 View complete transaction history
+
+
 
 Technologies Used:
 
