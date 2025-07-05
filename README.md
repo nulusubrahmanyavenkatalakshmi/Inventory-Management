@@ -3,7 +3,9 @@
 This is a web-based Inventory Management System developed using Flask (Python) and SQLite as a mini project to demonstrate CRUD operations, stock tracking, and transaction logging. It provides an easy-to-use interface for managing product inventory with the ability to add, update, delete products and monitor low stock alerts.
 
 🔗 Live Deployment:
-👉 Click to View App
+ Click here to view the project:  
+👉 [Inventory Management System](https://inventory-management-rnuf.onrender.com)
+
 
 ✨ About the Project
 This project helps small businesses or store owners keep track of their products. It provides a dashboard where:
